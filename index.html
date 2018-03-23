@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Form</title>
+  <link href="css/form.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+</head>
+
+<body>
+  <main>
+    <article class="registrationform">
+      <h1> Registration Form</h1>
+      <form action='' method="POST">
+        <section class="personal-detail">
+          <h2> Personal Detail:</h2>
+          <div class="input-group">
+            <i class="fas fa-user"></i>
+            <input id="name" type="text" placeholder="Name" value="" required />
+            <i class="fas fa-home"></i>
+            <input id="address" type="text" placeholder="Address" value="" required/>
+
+            <i class="fas fa-envelope-open"></i>
+            <input id="email" type="email" placeholder="Email" value="" />
+            <i class="fas fa-phone"></i>
+            <input id="phonenumber" type="tel" placeholder="Phone Number" value="" />
+            <i class="fas fa-calendar-alt"></i>
+            <input id="birthdate" type="date" placeholder="Birthday Date" value="" required />
+            <div class="btn btn-group">
+              <button class="btn btn-primary" type="submit">Submit</button>
+              <button class="btn-cancel" type="button">Cancel</button>
+            </div>
+          </div>
+
+        </section>
+    </article>
+  </main>
+</body>
+
+</html>
