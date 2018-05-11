@@ -1,0 +1,81 @@
+.navbar-wrapper {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: sticky;
+  height: 42px;
+  width: 100%;
+  z-index: 999;
+
+  a {
+    color: $text-color;
+    padding: 9px 16px;
+    text-decoration: none;
+  }
+}
+
+.mainnav {
+  a:hover {
+    color: $text-color;
+    background-color: $hover-color;
+  }
+}
+
+.heading {
+  background-color: $bg-color;
+}
+
+.mainnav {
+  color: $text-color;
+  background-color: $bg-color;
+  margin: 0;
+
+  li {
+    font-size: 16px;
+  }
+
+  a {
+    color: $text-color;
+  }
+}
+
+.mainnav.change {
+  background-color: $bg-color;
+}
+
+.hide-on-small {
+  display: none;
+}
+
+.sidenav {
+  visibility: hidden;
+  position: absolute;
+  width: 250px;
+  height: 100vh;
+  background-color: $bodybackground;
+  transform: translateX(-225px);
+  transition: transform 0.4s ease-in-out;
+}
+
+.sidenav.show {
+  transform: translateX(0);
+  visibility: visible;
+}
+@media #{$tablets-device} {
+  .hide-on-small {
+    display: block;
+    z-index: 1;
+  }
+  .hide-on-desk{
+    display: none;
+  }
+}
+@media #{$desktop-device} {
+  .hide-on-small {
+    display: block;
+  }
+
+  .hide-on-desk {
+    display: none;
+  }
+}

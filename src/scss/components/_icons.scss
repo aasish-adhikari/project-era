@@ -1,0 +1,93 @@
+.fab {
+  font-size: 30px;
+  margin: 0 5px;
+  padding: 0;
+}
+
+.fa-facebook {
+  color: #4967ad;
+}
+
+.fa-twitter {
+  color: #4aa0eb;
+}
+
+.fa-google-plus-g {
+  color: #cd5a4b;
+}
+
+.btn {
+  padding: 10px 16px;
+  border-radius: 3px;
+  min-width: 120px;
+  margin-top: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  position: relative;
+  transition: all 0.2s ease-in;
+  border: 0;
+
+  &:active,
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #005B9D;
+  padding: 10px;
+  width: 40%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #0B5285;
+}
+
+.btn-cancel {
+  padding: 10px;
+  width: 40%;
+  color: #ffffff;
+  background-color: #AB0100;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-cancel:hover {
+  color: #FFFFFF;
+  background-color: #A10A0A;
+}
+
+.btn-group {
+  margin: 10px auto;
+  max-width: 320px;
+}
+@media #{$tablets-device} {
+  .fab {
+    color: $footer-text;
+  }
+
+  .fa-facebook:hover {
+    color: #4967ad;
+  }
+
+  .fa-twitter:hover {
+    color: #4aa0eb;
+  }
+
+  .fa-google-plus-g:hover {
+    color: #cd5a4b;
+  }
+}

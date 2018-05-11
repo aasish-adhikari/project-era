@@ -1,0 +1,16 @@
+.googlemaps{
+  margin: 20px;
+}
+
+.map{
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+.contact-container{
+  @extend .welcome-container;
+}
+
+.contact-message{
+  @extend .welcome-message;
+}

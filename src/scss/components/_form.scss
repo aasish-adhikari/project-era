@@ -1,0 +1,49 @@
+.form {
+  width: 500px;
+  color: #ffffff;
+  background-color: #005B9D;
+  margin: 0 auto;
+  padding: 10px 0 0 0;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  h2{
+    margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  }
+}
+.input-group {
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+.input-group input {
+  height: 30px;
+  text-indent: 30px;
+}
+
+.input-group input[type="text"], .input-group input[type="email"], .input-group input[type="tel"], .input-group input[type="date"] {
+  border: none;
+  border-bottom: 2px solid #262626;
+  outline: none;
+  outline-color: #262626;
+  background: transparent;
+}
+
+.fas.fa-user, .fas.fa-home, .fas.fa-envelope-open, .fas.fa-phone, .fas.fa-calendar-alt {
+  position: absolute;
+  padding: 10px 0 0 5px;
+  opacity: 0.5;
+}
+
+#name, #address, #email, #phonenumber, #birthdate {
+  /*border: 2px solid #ffffff;*/
+  width: 100%;
+  margin-bottom: 20px;
+}
