@@ -53,6 +53,16 @@
 #navbar.mob .slided {
   transform: translateX(0%); }
 
+@media screen and (max-width: 480px) {
+  .header-menu {
+    display: block; }
+
+  #navbar ul, #navbar.change ul, #navbar.mob ul {
+    flex-direction: column;
+    width: 250px;
+    height: 100vh;
+    transform: translateX(-255px);
+    transition: transform 0.5s ease-in-out; } }
 body {
   margin: 0;
   padding: 0;

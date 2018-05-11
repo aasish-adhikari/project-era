@@ -1,0 +1,32 @@
+{
+  "name": "projectera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss src/scss/main.scss public/build/styles/main.min.css",
+    "build-js": "browserify src/js/**.js>public/build/js/script.min.js",
+    "watch-js": "watchify src/js/**.js -t reactify -o publcin/build/js/script.min.js -dv",
+    "build": "npm run build-css && npm run build-js",
+    "server": "cd public && python -m SimpleHTTPServer 8000",
+    "server2": "cd public && nodemon --ignore app --ignore static server.js",
+    "projectera": "nodemon -e js,scss -x \"npm run build && npm run server\" --ignore build/"
+  },
+  "author": "Aasish Adhikari",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.2.0",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "hoek": "^5.0.3",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.10.0",
+    "watchify": "^3.11.0"
+  }
+}
