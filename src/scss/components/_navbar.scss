@@ -13,7 +13,9 @@
     text-decoration: none;
   }
 }
-
+.nav{
+  background-color: $bg-color;
+}
 .mainnav {
   a:hover {
     color: $text-color;
@@ -41,6 +43,12 @@
 
 .mainnav.change {
   background-color: $bg-color;
+}
+
+.logo{
+  margin: 0;
+  width: 100px;
+  height: 44px;
 }
 
 .hide-on-small {

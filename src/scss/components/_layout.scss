@@ -33,7 +33,11 @@ body {
     align-self: center;
   }
 }
-
+.nav{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
 .mainnav {
   ul {
     margin: 0;
