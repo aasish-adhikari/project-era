@@ -1,11 +1,8 @@
 .navbar-wrapper {
-  top: 0;
-  left: 0;
-  bottom: 0;
-  position: sticky;
+  position: fixed;
   height: 42px;
   width: 100%;
-  z-index: 999;
+  z-index: 1;
 
   a {
     color: $text-color;
@@ -25,6 +22,12 @@
 
 .heading {
   background-color: $bg-color;
+}
+.heading-bottom{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
 }
 
 .mainnav {
@@ -70,13 +73,7 @@
   visibility: visible;
 }
 @media #{$tablets-device} {
-  .hide-on-small {
-    display: block;
-    z-index: 1;
-  }
-  .hide-on-desk{
-    display: none;
-  }
+
 }
 @media #{$desktop-device} {
   .hide-on-small {

@@ -33,11 +33,13 @@ body {
     align-self: center;
   }
 }
-.nav{
+
+.nav {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
 }
+
 .mainnav {
   ul {
     margin: 0;
@@ -58,8 +60,14 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  padding-top: 43px;
 }
-
+.container-construction{
+  height: 200px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 200px;
+}
 .welcome-container {
   display: flex;
   flex-direction: column;
@@ -77,18 +85,34 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-.servicetabs__box{
+
+.servicetabs__box {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.contact{
+.contact {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  overflow: hidden;
 }
-.btn{
+
+.card-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card__actions {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.btn {
   display: block;
   text-decoration: none;
   text-align: center;
@@ -96,17 +120,18 @@ body {
   width: auto;
   width: fit-content;
 }
+
 .btn-group {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .footer-wrapper {
   display: flex;
   flex-wrap: wrap;
 }
-
 
 .partners-images-slider {
   display: flex;
@@ -115,14 +140,22 @@ body {
 }
 @media #{$mobile-device-landscape} {}
 @media #{$tablets-device} {
-  .footer-details{
+  .card-container {
+    flex-flow: row wrap;
+  }
+
+  .footer-details {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
   }
 }
 @media #{$desktop-device} {
-  .footer-details{
+  .card-container {
+    flex-flow: row wrap;
+  }
+
+  .footer-details {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;

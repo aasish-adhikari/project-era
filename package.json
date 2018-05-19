@@ -6,7 +6,7 @@
   "scripts": {
     "build-css": "node-sass --include-path scss src/scss/main.scss public/build/styles/main.min.css",
     "build-js": "browserify src/js/**.js>public/build/js/script.min.js",
-    "watch-js": "watchify src/js/**.js -t reactify -o publcin/build/js/script.min.js -dv",
+    "watch-js": "watchify src/js/**.js -t reactify -o public/build/js/script.min.js -dv",
     "build": "npm run build-css && npm run build-js",
     "server": "cd public && python -m SimpleHTTPServer 8000",
     "server2": "cd public && nodemon --ignore app --ignore static server.js",
@@ -27,6 +27,7 @@
     "hoek": "^5.0.3",
     "jquery": "^3.3.1",
     "jsdom": "^11.10.0",
+    "swiper": "^4.2.6",
     "watchify": "^3.11.0"
   }
 }
