@@ -27,7 +27,7 @@
   width: 100%;
   position: fixed;
   bottom: 0;
-  z-index: 2;
+  z-index: 100;
 }
 
 .mainnav {
@@ -54,10 +54,6 @@
   height: 44px;
 }
 
-.hide-on-small {
-  display: none;
-}
-
 .sidenav {
   visibility: hidden;
   position: absolute;
@@ -76,11 +72,5 @@
 
 }
 @media #{$desktop-device} {
-  .hide-on-small {
-    display: block;
-  }
 
-  .hide-on-desk {
-    display: none;
-  }
 }

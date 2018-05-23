@@ -3,9 +3,13 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-
+  h1{
+    font-size: 22px;
+    text-align: center;
+  }
   h2 {
     font-size: 20px;
+    text-align: center;
   }
 
   h3 {
@@ -18,6 +22,10 @@ body {
   padding: 0;
   line-height: 1.6;
   box-sizing: border-box;
+}
+
+.hide-on-small {
+  display: none;
 }
 
 .strong {
@@ -56,24 +64,26 @@ body {
     padding: 0 10px;
   }
 }
-
+/*this section has defined the container */
 .container {
   display: flex;
   flex-direction: column;
   padding-top: 43px;
 }
-.container-construction{
+
+.container-construction {
   height: 200px;
   font-weight: 400;
   text-align: center;
   padding-top: 200px;
 }
+
 .welcome-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
+/*This all service tabs and content if for homepage.*/
 .servicetabs {
   display: flex;
   flex-direction: column;
@@ -91,12 +101,36 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .contact {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   overflow: hidden;
+}
+
+
+.summary__card-container{
+ display: flex;
+ flex-wrap:wrap;
+ justify-content: space-around;
+}
+
+.summary__card-person {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.general__container-info{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 .card-container {
@@ -151,6 +185,14 @@ body {
   }
 }
 @media #{$desktop-device} {
+  .hide-on-small {
+    display: block;
+  }
+
+  .hide-on-desk {
+    display: none;
+  }
+
   .card-container {
     flex-flow: row wrap;
   }
@@ -159,5 +201,13 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+  }
+
+  .summary__card-container{
+    justify-content: space-around;
+  }
+  .summary__card-person{
+    flex-wrap: nowrap;
+
   }
 }
