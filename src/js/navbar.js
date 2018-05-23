@@ -1,5 +1,5 @@
 document.getElementsByClassName('sidenav-trigger')[0].addEventListener('click', showMenu);
-window.addEventListener('scroll',scrolling());
+// window.addEventListener('scroll',scrolling());
 function showMenu(){
     var expand = document.getElementsByClassName("sidenav")[0];
     console.log('noth');

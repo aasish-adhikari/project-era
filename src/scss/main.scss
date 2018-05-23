@@ -1,12 +1,21 @@
 //VENDOR
 @import 'vendor/reset';
+@import 'vendor/slick';
+@import 'vendor/slick-theme';
+
+
+//COMPONENTS
 @import 'components/variables';
 @import 'components/layout';
-@import 'components/navbar';
+@import 'components/placeholders';
+
 @import 'components/home';
 @import 'components/icons';
 @import 'components/form';
 @import 'components/card';
+@import 'components/services';
 @import 'components/contact';
+@import 'components/about';
 @import 'components/footer';
 @import 'components/colors';
+@import 'components/navbar';

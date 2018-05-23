@@ -31,7 +31,10 @@
   border-radius: 50%;
   float: left;
 }
+.main__description-text{
 
+  font-style: italic;
+}
 .servicetabs {
   background-color: $bodybackground;
   color: $text-color;
@@ -52,6 +55,21 @@
   border: none;
   border-radius: 4px;
 }
+.tangentyere__partners-images{
+  width:500px;
+  display:block;
+  margin:0 auto;
+
+  div{
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+  }
+}
+.slick-prev:before, .slick-next:before {
+color: #000;
+}
 
 .welcome-footer {
   .image-slider {
@@ -63,5 +81,9 @@
 @media #{$desktop-device} {
   .servicetabs__box {
     width: 25vw;
+  }
+  .main__description-text{
+      font-size: 20px;
+    padding: 10px 20% 10px 20%;
   }
 }
