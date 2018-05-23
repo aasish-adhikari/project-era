@@ -11,14 +11,14 @@
   height: 300px;
   background-color: #888;
 }
+.enterprises__wrapper-content{
+  width: 50%;
+}
+.enterprises-image{
+  height: 400px;
+  background-color: #222;
+}
 
-.main {
-  width:300px;
-  display:block;
-  margin:0 auto;
-}
 @media #{$desktop-device} {
-  .main {
-    width:1200px;
-}
+
 }

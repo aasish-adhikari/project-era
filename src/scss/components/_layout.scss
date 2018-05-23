@@ -113,6 +113,12 @@ body {
   overflow: hidden;
 }
 
+.enterprises__wrapper{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
 
 .summary__card-container{
  display: flex;
