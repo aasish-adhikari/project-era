@@ -453,6 +453,7 @@ body {
 .parallax-bg {
   width: 100%;
   height: calc(100vh - 43px);
+  -webkit-filter: contrast(85%) blur(2px) opacity(90%);
   z-index: -1; }
 
 .welcome__message-wrapper {
@@ -465,6 +466,11 @@ body {
   height: 120px;
   border-radius: 50%;
   float: left; }
+
+.main__description {
+  background-image: url("../../images/banner-background.jpg");
+  background-position: center;
+  background-size: contain; }
 
 .main__description-text {
   font-style: italic; }
