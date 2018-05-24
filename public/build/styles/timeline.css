@@ -1,3 +1,6 @@
+/*This file styles has been taken from https://github.com/CodyHouse/horizontal-timeline
+-- all the copyrights is subjected to the creater of the git repo--
+-- we donot hold any copyright but it was a free project so we included this in our website*/
 /* --------------------------------
 
 Primary style
@@ -177,6 +180,7 @@ Main Components
   position: absolute;
   z-index: 1;
   top: 50%;
+  color: #000000;
   bottom: auto;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -211,7 +215,7 @@ Main Components
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(../img/cd-arrow.svg) no-repeat 0 0;
+  background: url(img/cd-arrow.svg) no-repeat 0 0;
 }
 .cd-timeline-navigation a.prev {
   left: 0;
