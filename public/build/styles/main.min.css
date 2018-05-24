@@ -424,6 +424,12 @@ body {
   flex-wrap: wrap;
   justify-content: center; }
 
+.content-help {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center; }
+
 @media only screen and (min-width: 640px) {
   .card-container {
     flex-flow: row wrap; }
@@ -486,6 +492,11 @@ body {
   height: 100vh;
   -webkit-filter: contrast(105%) opacity(90%);
   z-index: -1; }
+
+.down-sroll {
+  text-align: center;
+  padding-top: 50px;
+  color: #ffffff; }
 
 .welcome__message-wrapper {
   position: relative;
@@ -576,7 +587,12 @@ body {
 .fa-google-plus-g {
   color: #cd5a4b; }
 
+.md-24 {
+  font-size: 50px; }
+
 .btn {
+  color: #ffffff;
+  background-color: #3b60aa;
   padding: 10px 16px;
   border-radius: 3px;
   min-width: 120px;
@@ -590,7 +606,7 @@ body {
   border: 0; }
   .btn:active, .btn:focus, .btn:hover {
     text-decoration: none;
-    color: white; }
+    background-color: #5e8eed; }
   .btn:active {
     opacity: 0.8; }
 
@@ -641,7 +657,7 @@ body {
   bottom: 50px;
   right: 0;
   margin-right: 5px;
-  background-color: #2c3e50;
+  background-color: #3b60aa;
   color: #ffffff;
   text-align: center;
   font-size: 30px;
@@ -879,6 +895,11 @@ body {
 .services-tabs {
   background-color: #ffffff; }
 
+.content-help {
+  background-color: #222;
+  color: #fff;
+  text-align: center; }
+
 .contact-container {
   font-size: 28px;
   font-weight: 600;
@@ -1039,6 +1060,9 @@ body {
 .mainnav a:hover {
   color: #ffffff;
   background-color: #16a085; }
+
+.active {
+  box-shadow: inset 0 -5px 0 #16a085; }
 
 .heading {
   background-color: #2c3e50; }
