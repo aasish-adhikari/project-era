@@ -7,8 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css">
+
   <link rel="stylesheet" href="build/styles/main.min.css">
-  <link rel="stylesheet" href="build/styles/timeline.css" />
+
+    <link rel="stylesheet" href="build/styles/timeline.css" />
   <title>Tangentyere Council - Home</title>
 </head>
 
@@ -17,6 +19,7 @@
     <div class="heading heading-top hide-on-desk">
       <a class="white" href="#"> Tangentyere Council</a>
     </div>
+    <!-- we have included bottom fixed navbar icons for mobile keeping large device access area in consideration -->
     <div class="heading heading-bottom hide-on-desk">
       <a><i class="material-icons">home</i></a>
       <a href="javascript:void(0)" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -29,7 +32,7 @@
          </a></div>
       <ul class="mainnav hide-on-small">
         <!--li class="space"><span class="space"></span></li-->
-        <li><a href="index.html#aboutus">About Us</a></li>
+        <li class="active"><a href="index.html#aboutus">About Us</a></li>
         <li><a href="lib/pages/services.html">Services</a></li>
         <li><a href="lib/pages/enterprises.html">Enterprises</a></li>
         <li><a href="lib/pages/employment.html">Employment</a></li>
@@ -47,10 +50,13 @@
     </ul>
   </header>
   <main class="container">
+    <a id="back2Top" title="Back to top" href="#">&#10148;</a>
     <div class="welcome-container welcome">
       <section class="welcome-message">
         <h1 class="main-heading white"> Welcome To Tangentyere Website</h1>
-        <a class="btn"></a>
+        <p class="down-sroll"> <i class="material-icons md-24" >
+keyboard_arrow_down
+</i></p>
       </section>
 
       <img class="parallax-bg" src="images/bg.jpg" alt="This is a roadway to ayers rock">
@@ -86,22 +92,20 @@
     </article>
     <article class="container-content content-history">
       <h2> Historical Overview </h2>
+      <!-- This timeline is taken and edited from another source: https://github.com/CodyHouse/horizontal-timeline
+      The date-date of this animation is designed using JQuery by the developer and the dot distance of the years on
+      slidebar is defined by days. So we have included fake dates just to recreate the distance between year placeholders. -->
       <section class="cd-horizontal-timeline">
-        <div class="timeline">
-          <div class="events-wrapper">
-            <div class="events">
+  	<div class="timeline">
+  		<div class="events-wrapper">
+  			<div class="events">
               <ol>
-                <!-- <li><a href="#0" data-date="01/01/1872" class="selected">1872-1969</a></li>
-                <li><a href="#0" data-date="01/01/1970">1970-1979</a></li>
-                <li><a href="#0" data-date="01/01/1980">1980-1989</a></li>
-                <li><a href="#0" data-date="01/01/1990">1990-1999</a></li>
-                <li><a href="#0" data-date="01/01/2000">2000-Present</a></li> -->
                 <li><a href="#0" data-date="30/08/2014" class="selected">The begining</a></li>
                 <li><a href="#0" data-date="15/10/2014">1970's</a></li>
                 <li><a href="#0" data-date="01/11/2014">1980's </a></li>
                 <li><a href="#0" data-date="01/01/2015">1990's </a></li>
                 <li><a href="#0" data-date="15/02/2015">Present</a></li>
-              
+
               </ol>
 
               <span class="filling-line" aria-hidden="true"></span>
