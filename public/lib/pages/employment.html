@@ -17,10 +17,10 @@
       <a class="white" href="#"> Tangentyere Council</a>
     </div>
     <div class="heading heading-bottom hide-on-desk">
-      <a><i class="material-icons">home</i></a>
+      <a href="../../index.html"><i class="material-icons">home</i></a>
       <a href="javascript:void(0)" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
-      <a><i class="material-icons">contact_support</i></a>
+      <a href="contact.html"><i class="material-icons">contact_support</i></a>
     </div>
     <nav id="navbar" class="nav">
 
@@ -67,25 +67,21 @@
               </li>
               <li>Attach your CV (curriculum vitae);</li>
               <li>
-                Mail your completed application with CV attached to </br>
-                <p class="emp__mail-info">HR Manager (Confidential)</br>
-                  Tangentyere Council</br>
-                  PO Box 8070</br>
-                  Alice Springs, NT 0871</br>
+                Mail your completed application with CV attached to <br>
+                <p class="emp__mail-info">HR Manager (Confidential)<br> Tangentyere Council<br> PO Box 8070<br> Alice Springs, NT 0871<br>
                 </p>
               </li>
             </ul>
-          </p>
         </div>
         <div class="employment__figure">
-          <img class="" src="../../images/employment.jpeg" />
+          <img class="" src="../../images/employment.jpeg" alt="women making pictures" />
         </div>
       </div>
       <div class="form__container">
         <article class="form">
           <h3>Apply Online</h3>
-          <form action='' method="POST">
-            <section class="personal-detail">
+          <form action='#'>
+            <div class="personal-detail">
               <div class="input-group">
                 <label for="position">Enter position you are applying form:
                 <input type="text" id="position" class="form__input" placeholder="" value="" required/>
@@ -97,15 +93,15 @@
                 <input type="email" id="email" class="form__input" placeholder="example@example.com" value="" required />
               </label>
                 <label for="file">Attach your Cover Letter:
-              <label class="custom__file-upload">Choose File
-                <input type="file" name="resume">
-              </label>
+              <span class="custom__file-upload">Choose File
+                <input type="file" id="file" name="resume">
+              </span>
                 </label>
-                </br>
-                <label for="file">Attach your CV/Resume:
-              <label class="custom__file-upload">Choose File
-                <input type="file" name="resume">
-              </label>
+                <br>
+                <label for="file2">Attach your CV/Resume:
+              <span class="custom__file-upload">Choose File
+                <input type="file" id="file2" name="resume">
+              </span>
                 </label>
 
 
@@ -114,8 +110,8 @@
                   <button class="btn btn-cancel" type="reset">Cancel</button>
                 </div>
               </div>
-
-            </section>
+            </div>
+          </form>
         </article>
       </div>
 
