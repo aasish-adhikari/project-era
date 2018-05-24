@@ -340,6 +340,11 @@ body {
   flex-wrap: nowrap;
   overflow: hidden; }
 
+.enterprises__wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+
 .summary__card-container {
   display: flex;
   flex-wrap: wrap;
@@ -390,7 +395,7 @@ body {
   flex-wrap: wrap;
   justify-content: center; }
 
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 640px) {
   .card-container {
     flex-flow: row wrap; }
   .footer-details {
@@ -425,14 +430,12 @@ body {
   height: 300px;
   background-color: #888; }
 
-.main {
-  width: 300px;
-  display: block;
-  margin: 0 auto; }
+.enterprises__wrapper-content {
+  width: 50%; }
 
-@media only screen and (min-width: 961px) {
-  .main {
-    width: 1200px; } }
+.enterprises-image {
+  height: 400px;
+  background-color: #222; }
 
 .welcome-container, .contact-container {
   height: 100%;
@@ -450,6 +453,7 @@ body {
 .parallax-bg {
   width: 100%;
   height: calc(100vh - 43px);
+  -webkit-filter: contrast(85%) blur(2px) opacity(90%);
   z-index: -1; }
 
 .welcome__message-wrapper {
@@ -462,6 +466,11 @@ body {
   height: 120px;
   border-radius: 50%;
   float: left; }
+
+.main__description {
+  background-image: url("../../images/banner-background.jpg");
+  background-position: center;
+  background-size: contain; }
 
 .main__description-text {
   font-style: italic; }
@@ -570,7 +579,7 @@ body {
   margin: 10px auto;
   max-width: 320px; }
 
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 640px) {
   .fab {
     color: #f0f0f0; }
   .fa-facebook:hover {
@@ -710,7 +719,7 @@ body {
   width: 450px;
   border: 2px solid #222222; }
 
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 640px) {
   .card-container {
     max-width: none; } }
 
@@ -756,6 +765,19 @@ body {
 .footer-wrapper {
   color: #f0f0f0;
   background-color: #3c3e42; }
+
+.main {
+  width: 300px;
+  display: block;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 640px) {
+  .main {
+    width: 550px; } }
+
+@media only screen and (min-width: 961px) {
+  .main {
+    width: 1200px; } }
 
 .white {
   color: #ffffff; }

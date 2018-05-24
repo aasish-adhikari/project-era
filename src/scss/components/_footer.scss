@@ -7,10 +7,19 @@
   }
 }
 
+.main {
+  width:300px;
+  display:block;
+  margin:0 auto;
+}
 
 @media #{$tablets-device} {
-
+  .main {
+    width:550px;
+  }
 }
 @media #{$desktop-device} {
-
+  .main {
+    width:1200px;
+}
 }
