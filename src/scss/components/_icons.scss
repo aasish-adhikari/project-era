@@ -15,8 +15,13 @@
 .fa-google-plus-g {
   color: #cd5a4b;
 }
+.md-24{
+  font-size: 50px;
+}
 
 .btn {
+  color: $text-color;
+  background-color: #3b60aa;
   padding: 10px 16px;
   border-radius: 3px;
   min-width: 120px;
@@ -33,7 +38,7 @@
   &:focus,
   &:hover {
     text-decoration: none;
-    color: white;
+    background-color: #5e8eed;
   }
 
   &:active {
@@ -91,7 +96,7 @@
     bottom: 50px;
     right: 0;
     margin-right: 5px;
-    background-color: $bg-color;
+    background-color: #3b60aa;
     color: $text-color;
     text-align: center;
     font-size: 30px;

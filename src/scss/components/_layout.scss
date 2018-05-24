@@ -211,6 +211,12 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+.content-help{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+}
 @media #{$mobile-device-landscape} {}
 @media #{$tablets-device} {
   .card-container {
