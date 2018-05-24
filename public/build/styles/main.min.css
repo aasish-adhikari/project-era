@@ -1044,8 +1044,7 @@ body {
 .navbar-wrapper {
   position: fixed;
   height: 42px;
-  width: 100%;
-  z-index: 999; }
+  width: 100%; }
   .navbar-wrapper a {
     color: #ffffff;
     padding: 9px 16px;
