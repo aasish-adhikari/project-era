@@ -1,12 +1,12 @@
 # project-era
 Project Era is a project done for Final Assignment of HIT 226 By students of Bachelors in CDU.
 
-###Team members
+## Team members
 Aasish Adhikari
 Prajwal Bhandari
 Ranjan Bhandari
 
-###Introduction
+## Introduction
 For this project we choose to redevelop website of non-profitable organisation "Tangentyere Council".
 
 > Folder structure options and naming conventions for this projects
