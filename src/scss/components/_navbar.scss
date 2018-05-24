@@ -10,17 +10,20 @@
     text-decoration: none;
   }
 }
-.nav{
+
+.nav {
   background-color: $bg-color;
 }
-.nav-home{
+
+.nav-home {
   // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-ul{
-  a{
-  color: black;
+  ul {
+    a {
+      color: black;
+    }
+  }
 }
-}
-}
+
 .mainnav {
   a:hover {
     color: $text-color;
@@ -31,7 +34,8 @@ ul{
 .heading {
   background-color: $bg-color;
 }
-.heading-bottom{
+
+.heading-bottom {
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -50,16 +54,18 @@ ul{
     color: $text-color;
   }
 }
+
 .change {
   background-color: $bg-color;
-  ul{
-    a{
+
+  ul {
+    a {
       color: $text-color;
     }
   }
 }
 
-.logo{
+.logo {
   margin: 0;
   width: 145px;
   height: 44px;
@@ -73,15 +79,21 @@ ul{
   background-color: $bodybackground;
   transform: translateX(-225px);
   transition: transform 0.4s ease-in-out;
+  align-self: baseline;
+
+  li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #000000;
+  }
+}
+
+.active-side {
+  background-color: blue;
 }
 
 .sidenav.show {
   transform: translateX(0);
   visibility: visible;
 }
-@media #{$tablets-device} {
-
-}
-@media #{$desktop-device} {
-
-}
+@media #{$tablets-device} {}
+@media #{$desktop-device} {}

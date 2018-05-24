@@ -1,3 +1,5 @@
+/*the code below has been taken from github account of slick animation*/
+
 $('.slider').slick({
   dots: true,
   infinite: true,
