@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css">
   <link rel="stylesheet" href="build/styles/main.min.css">
+  <link rel="stylesheet" href="build/styles/timeline.css" />
   <title>Tangentyere Council - Home</title>
 </head>
 
@@ -22,38 +23,43 @@
 
       <a><i class="material-icons">contact_support</i></a>
     </div>
+<<<<<<< HEAD
+    <nav id="navbar" class="nav-home">
+
+      <div class="logo hide-on-small"><a class="a-logo" href="index.html"><img src="images/main-logo.jpg" alt="" class="logo red-bg">
+=======
     <nav id="navbar" class="nav">
 
       <div class="logo hide-on-small"><a class="a-logo" href="index.html"><img src="images/tangentyere-artists-Logo.jpg" alt="" class="logo red-bg">
+>>>>>>> f98c606ab239183075b938feb3e82d8c4a874f92
          </a></div>
       <ul class="mainnav hide-on-small">
         <!--li class="space"><span class="space"></span></li-->
-        <li><a href="lib/pages/about.html">About Us</a></li>
+        <li><a href="index.html#aboutus">About Us</a></li>
         <li><a href="lib/pages/services.html">Services</a></li>
         <li><a href="lib/pages/enterprises.html">Enterprises</a></li>
-        <li><a href="lib/pages/publications.html">Publications</a></li>
         <li><a href="lib/pages/employment.html">Employment</a></li>
         <li><a href="lib/pages/contact.html">Contact Us</a></li>
 
       </ul>
     </nav>
     <ul class="sidenav">
-      <li><a href="lib/pages/about.html">About Us</a></li>
+      <li><a href="index.html#aboutus">About Us</a></li>
       <li><a href="lib/pages/services.html">Services</a></li>
       <li><a href="lib/pages/enterprises.html">Enterprises</a></li>
-      <li><a href="lib/pages/publications.html">Publications</a></li>
       <li><a href="lib/pages/employment.html">Employment</a></li>
       <li><a href="lib/pages/contact.html">Contact Us</a></li>
 
     </ul>
   </header>
   <main class="container">
-    <div class="welcome-container">
+    <div class="welcome-container welcome">
       <section class="welcome-message">
-        <h1 class="white"> Welcome To Tangentyere Website</h1>
+        <h1 class="main-heading white"> Welcome To Tangentyere Website</h1>
         <a class="btn"></a>
       </section>
-      <img class="parallax-bg" src="images/welcome-background.jpg" alt="no img">
+
+      <img class="parallax-bg" src="images/bg.jpg" alt="no img">
     </div>
     <div class="welcome__message-wrapper" id="toplevel">
       <div class="welcome__message-image">
@@ -70,46 +76,189 @@
         <p>
           Tangentyere Council is proud of its achievements since its incorporation in 1979. We also recognise that there is still much to be done by us, by government and by all those who have a part to play in meeting the substantial challenges involved in addressing
           Aboriginal needs and disadvantage.
-          <br><span class="strong">Walter Shaw</span>
-          <br>Chief Executive Officer
         </p>
+        <br>
+        <p><span class="strong">Walter Shaw</span>
+          <br>Chief Executive Officer</p>
+
       </div>
     </div>
-    <article class="container-content content-aboutus">
-      <h2>About Us</h2>
-      <p>Tangentyere Council is the major service delivery agency for the 18 Housing Associations known as ‘town camps’ in Alice Springs. Tangentyere Council began operating in the early 1970s and was first incorporated in 1979. Tangentyere Council was established
+    <article class="container-content main__description white" id="aboutus">
+      <h1>About Us</h1>
+      <p class="main__description-text">Tangentyere Council is the major service delivery agency for the 18 Housing Associations known as ‘town camps’ in Alice Springs. Tangentyere Council began operating in the early 1970s and was first incorporated in 1979. Tangentyere Council was established
         to assist Aboriginal people to gain some form of legal tenure of the land they were living on in order to obtain essential services and housing.
       </p>
+
     </article>
     <article class="container-content content-history">
       <h2> HISTORY </h2>
-      <p> this will have js animation with history content.</p>
+      <section class="cd-horizontal-timeline">
+        <div class="timeline">
+          <div class="events-wrapper">
+            <div class="events">
+              <ol>
+                <li><a href="#0" data-date="16/01/2014" class="selected">16 Jan</a></li>
+                <li><a href="#0" data-date="24/02/2014">24 Feb</a></li>
+                <li><a href="#0" data-date="20/04/2014">20 Mar</a></li>
+                <li><a href="#0" data-date="20/05/2014">20 May</a></li>
+                <li><a href="#0" data-date="09/07/2014">09 Jul</a></li>
+                <li><a href="#0" data-date="30/08/2014">30 Aug</a></li>
+                <li><a href="#0" data-date="15/09/2014">15 Sep</a></li>
+                <li><a href="#0" data-date="01/11/2014">01 Nov</a></li>
+                <li><a href="#0" data-date="10/12/2014">10 Dec</a></li>
+                <li><a href="#0" data-date="19/01/2015">29 Jan</a></li>
+                <li><a href="#0" data-date="03/03/2015">3 Mar</a></li>
+              </ol>
+
+              <span class="filling-line" aria-hidden="true"></span>
+            </div>
+            <!-- .events -->
+          </div>
+          <!-- .events-wrapper -->
+
+          <ul class="cd-timeline-navigation">
+            <li><a href="#0" class="prev inactive">Prev</a></li>
+            <li><a href="#0" class="next">Next</a></li>
+          </ul>
+          <!-- .cd-timeline-navigation -->
+        </div>
+        <!-- .timeline -->
+
+        <div class="events-content">
+          <ol>
+            <li class="selected" data-date="16/01/2014">
+              <h2>Horizontal Timeline</h2>
+              <em>January 16th, 2014</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="24/02/2014">
+              <h2>Event title here</h2>
+              <em>February 24th, 2014</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="20/04/2014">
+              <h2>Event title here</h2>
+              <em>March 20th, 2014</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="20/05/2014">
+              <h2>Event title here</h2>
+              <em>May 20th, 2014</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="09/07/2014">
+              <h2>Event title here</h2>
+              <em>July 9th, 2014</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="30/08/2014">
+              <h2>Event title here</h2>
+              <em>August 30th, 2014</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="15/09/2014">
+              <h2>Event title here</h2>
+              <em>September 15th, 2014</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="01/11/2014">
+              <h2>Event title here</h2>
+              <em>November 1st, 2014</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="10/12/2014">
+              <h2>Event title here</h2>
+              <em>December 10th, 2014</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="19/01/2015">
+              <h2>Event title here</h2>
+              <em>January 19th, 2015</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+
+            <li data-date="03/03/2015">
+              <h2>Event title here</h2>
+              <em>March 3rd, 2015</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+          </ol>
+        </div>
+        <!-- .events-content -->
+      </section>
     </article>
 
-    <article class="container-content content-members">
-      <h2> Founding Members</h2>
+    <article class="container-content content-members griffin-bg">
+      <h2 class="white"> Founding Members</h2>
       <div class="summary__card-container">
         <section class="members-founding summary__card-person">
-          <figure class="image-placeholder">
-            <img src="" class="members__founding-image" alt="" />
+          <figure class="card__person-figure griffin-bg">
+            <img src="images/rubuntuW.jpg" class="card__person-image" alt="" />
           </figure>
-          <h3>Mr W. Rubuntja</h3>
-          <p>Late Mr W. Rubuntja (Mid 1920’s- July 2005) Mr W. Rubuntja was born around the mid 1920’s at Burt Creek to the north of Alice Springs where he spent his early years. Mr W. Rubuntja Pengarte was one of the leading founders of Tangentyere Council
-            and instrumental in gaining tenure and rights for the town camp residents. Mr W. Rubuntja led the struggle for land rights, reconciliation and the protection of sacred sites, and had a leading role in the establishment of other Aborginal organisations
-            in Central Australia including the Central Land Council, Yipirinya School and the Central Australian Aborginal Congress. In the early 1970’s Mr Rubuntja fought specially hard for the rights of his fellow town campers and saw a need of an Aborginal
-            controlled council to provide basic services, such as shelter, food and clothing. Mr Rubuntja’s contribution to national public life was outstanding and he was made a member of the order of Australia in 1995.</p>
+          <div class="card__person-text">
+            <h3>Late Mr W. Rubuntja</h3>
+            <p>Late Mr W. Rubuntja (Mid 1920’s- July 2005) Mr W. Rubuntja was born around the mid 1920’s at Burt Creek to the north of Alice Springs where he spent his early years. Mr W. Rubuntja Pengarte was one of the leading founders of Tangentyere Council
+              and instrumental in gaining tenure and rights for the town camp residents. Mr W. Rubuntja led the struggle for land rights, reconciliation and the protection of sacred sites, and had a leading role in the establishment of other Aborginal
+              organisations in Central Australia including the Central Land Council, Yipirinya School and the Central Australian Aborginal Congress. In the early 1970’s Mr Rubuntja fought specially hard for the rights of his fellow town campers and saw
+              a need of an Aborginal controlled council to provide basic services, such as shelter, food and clothing. Mr Rubuntja’s contribution to national public life was outstanding and he was made a member of the order of Australia in 1995.
+            </p>
+          </div>
         </section>
         <section class="members-founding summary__card-person">
-          <figure class="image-placeholder">
-            <img src="" class="members__founding-image" alt="" />
+          <figure class="card__person-figure griffin-bg">
+            <img src="images/rubuntuE.jpg" class="card__person-image" alt="" />
           </figure>
-
-          <h3> E Rubunjta </h3>
-          <p> E. Rubuntja Born on the 14th of March 1922 in Hermannsberg (Ntaria), E Rubuntja was strongly influenced by the early Lutheran Missionaries who ministered in the area. From early years, E Rubuntja was sent to school to learn to read and write
-            without losing the significance of his bilingual upbringing, he spoke all of the Arandic languages (9), as well as Pintupi, Warlpiri and Pitjantjatjarra. He also read and wrote several languages, a skill he learned during his early bilingual
-            education. Mr. Rubuntja was the very essence of compassion, determination, and vision. He was a popular man of our community and a great Indigenous leader, a Senior Arrernte Lawman and a Pastor of the Lutheran Church. He was a wise and highly
-            respected elder of 84 years and is regarded as the founding father of Tangentyere Council, Yipirinya School, and was instrumentally involved in the establishment of Aboriginal organisations such as Central Land Council, Central Australian
-            Aboriginal Legal Aid Service, Central Australian Aboriginal Congress, Central Australian Aboriginal Media Association and was involved in establishing the Institute from Aboriginal Development as an Aboriginal organisation.</p>
+          <div class="card__person-text">
+            <h3> E Rubunjta </h3>
+            <p> E. Rubuntja Born on the 14th of March 1922 in Hermannsberg (Ntaria), E Rubuntja was strongly influenced by the early Lutheran Missionaries who ministered in the area. From early years, E Rubuntja was sent to school to learn to read and write
+              without losing the significance of his bilingual upbringing, he spoke all of the Arandic languages (9), as well as Pintupi, Warlpiri and Pitjantjatjarra. He also read and wrote several languages, a skill he learned during his early bilingual
+              education. Mr. Rubuntja was the very essence of compassion, determination, and vision. He was a popular man of our community and a great Indigenous leader, a Senior Arrernte Lawman and a Pastor of the Lutheran Church. He was a wise and highly
+              respected elder of 84 years and is regarded as the founding father of Tangentyere Council, Yipirinya School, and was instrumentally involved in the establishment of Aboriginal organisations such as Central Land Council, Central Australian
+              Aboriginal Legal Aid Service, Central Australian Aboriginal Congress, Central Australian Aboriginal Media Association and was involved in establishing the Institute from Aboriginal Development as an Aboriginal organisation.
+            </p>
+          </div>
         </section>
       </div>
 
@@ -119,25 +268,26 @@
         <section class="info-content structure">
           <h2> Structure</h2>
           <p>
-            Lorem ipsum dolor sit amet, cibo mazim platonem ei vim. Per id aeque putent, ius an mollis assentior rationibus. Idque mentitum sit at, ne duo equidem vivendo. Aeterno feugiat dissentiunt vix ex. Sea in apeirian adversarium disputationi, ea mel aperiam
-            explicari evertitur, harum scripta luptatum in ius. Idque forensibus eam no. Enim libris semper id usu, ei nam cibo tollit similique, his prodesset cotidieque ad. Has ea tale soluta dolorem.
+            The Executive Director reports directly to the Executive Council (Governance). As head of Tangentyere Council the Executive Director represents the Council on a number of external committees and provides leadership in the strategic direction of the overall
+            functions of the Council and its roles and relationships in the wider community. The Senior Executive Officer reports to the Executive Director and through that position to the Executive Council. This position undertakes much of the internal
+            management of the organization.
           </p>
         </section>
         <figure class="struct-placeholder hide-on-small">
-          <img src="" class="" alt="" />
+          <img src="images/structure.gif" class="structure-image" alt="" />
         </figure>
       </div>
     </article>
     <article class="container-content content-governance">
       <div class="general__container-info">
         <figure class="struct-placeholder hide-on-small">
-          <img src="" class="" alt="" />
+          <img src="images/governance.jpg" class="structure-image" alt="" />
         </figure>
         <section class="info-content structure">
           <h2>Governance</h2>
           <p>
-            Lorem ipsum dolor sit amet, cibo mazim platonem ei vim. Per id aeque putent, ius an mollis assentior rationibus. Idque mentitum sit at, ne duo equidem vivendo. Aeterno feugiat dissentiunt vix ex. Sea in apeirian adversarium disputationi, ea mel aperiam
-            explicari evertitur, harum scripta luptatum in ius. Idque forensibus eam no. Enim libris semper id usu, ei nam cibo tollit similique, his prodesset cotidieque ad. Has ea tale soluta dolorem.
+            Tangentyere Council is an Aboriginal owned and controlled organisation governed by an executive of elected representatives from all town camps. Tangentyere Council’s Mission Statement is to provide sustainable services and programmes which are culturally
+            sensitive, innovative, effective and efficient, which meet the needs and aspirations of the Alice Springs Town Camp communities, Housing Associations and others. It employs over 175 staff to deliver its wide range of programs and services.
           </p>
         </section>
       </div>
@@ -150,14 +300,17 @@
   </main>
   <footer class="welcome-footer">
     <div class="main slider">
-      <div><img class="image-slider" src="images/caylus-logo.jpg" alt="" /></div>
-      <div><img class="image-slider" src="images/tangentyere-artists-Logo.jpg" alt="" /></div>
+      <div><img class="image-slider" src="images/caylus.jpg" alt="" /></div>
+      <div><img class="image-slider" src="images/tangentyere-artists.jpg" alt="" /></div>
       <div><img class="image-slider" src="images/tangentyere-design.jpg" alt=""></div>
-      <div><img class="image-slider" src="images/tangentyere-family.png" alt=""></div>
+      <div><img class="image-slider" src="images/tangentyere-family.jpg" alt=""></div>
     </div>
     <div class="footer-wrapper">
-      <div class="footer-logo"></div>
+
       <div class="footer-details">
+        <div class="footer-logo">
+          <img src="images/Logo.jpg" />
+        </div>
         <div class="details-contacts">
           <h3> Contact Us</h3>
           <address>
@@ -168,17 +321,20 @@
               Mailing Address: PO Box 8070 Alice Springs, NT 0871<br>
           </address>
         </div>
-        <div class="details-social">
-          <h3> Follow Us</h3>
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-google-plus-g"></i>
-        </div>
       </div>
+      <!-- <span class="space"></span> -->
+      <div class="details-social">
+        <h3> Follow Us</h3>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-google-plus-g"></i>
+      </div>
+
     </div>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="build/js/timeline.js"></script>
   <script src="build/js/slick.js"></script>
   <script src="build/js/script.min.js"></script>
 </body>
