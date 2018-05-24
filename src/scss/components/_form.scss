@@ -1,13 +1,18 @@
 .form {
-  // width: 500px;
-  color: #005b9d;
+  width: 350px;
+  // color: #005b9d;
   // background-color: #005B9D;
   margin: 0 auto;
   padding: 10px 0 0 0;
   display: block;
+  background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  .btn{
+    width: auto;
+    max-width: 200px;
+  }
 
-  h2{
+  h3{
     margin: 0;
   padding: 0;
   font-size: 24px;
@@ -15,11 +20,11 @@
   text-align: center;
   }
 }
+
 .input-group {
   padding: 10px 20px;
   margin: 20px;
   font-size: 18px;
-  font-size: 1.8rem;
 }
 
 .input-group input {
@@ -34,6 +39,45 @@
   outline-color: #262626;
   background: transparent;
 }
+.input-group input[type="file"]{
+  display: none;
+}
+
+.form__input {
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  border: 0;
+  border-bottom: 3px solid black;
+  transition: border-bottom-color 0.2s ease-in;
+  &:focus {
+    outline: none;
+    border: 0;
+    border-bottom: 3px solid green;
+
+    &:invalid {
+      box-shadow: none;
+      border-bottom: 3px solid red;
+      & + .form__input-error{
+        display: block;
+        height: auto;
+      }
+    }
+}
+}
+
+.custom__file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+
 
 .fas.fa-user, .fas.fa-home, .fas.fa-envelope-open, .fas.fa-phone, .fas.fa-calendar-alt {
   position: absolute;
@@ -41,7 +85,7 @@
   opacity: 0.5;
 }
 
-#name, #address, #email, #phonenumber, #birthdate {
+#position, #name, #address, #email, #phonenumber, #birthdate {
   /*border: 2px solid #ffffff;*/
   width: 100%;
   margin-bottom: 20px;

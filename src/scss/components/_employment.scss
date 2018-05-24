@@ -1,0 +1,47 @@
+
+.apply-text-format{
+  align: center;
+}
+
+.form__container{
+  padding: 10px;
+  background-color: rgba(112, 112, 112, 0.8);
+}
+.content-apply{
+  background-color: #fbcf97;
+  padding-bottom: 0;
+}
+.employment__text{
+  padding: 20px;
+  width: 100%;
+  ul{
+    padding-left: 10px;
+    list-style: circle inside;
+  }
+}
+.emp__mail-info{
+  padding-left: 40px;
+}
+.employment__figure{
+  img{
+  width: 350px;
+  height: 300px;
+  }
+}
+@media #{$desktop-device} {
+  .apply{
+    width: 650px;
+  }
+  .form{
+    width: 650px;
+  }
+  .employment__text{
+    width: 40%;
+  }
+  .employment__figure{
+    img{
+    width: 500px;
+    height: 350px;
+    }
+  }
+}

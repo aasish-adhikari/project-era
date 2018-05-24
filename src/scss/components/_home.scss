@@ -1,3 +1,8 @@
+.main-heading{
+  font-size: 36px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 .welcome-container {
   height: 100%;
   position: relative;
@@ -14,9 +19,10 @@
 }
 
 .parallax-bg {
+  margin-top: -43px;
   width: 100%;
-  height: calc(100vh - 43px);
-  -webkit-filter: contrast(85%) blur(2px) opacity(90%);
+  height: 100vh;
+  -webkit-filter: contrast(105%) opacity(90%);
   z-index: -1;
 }
 
@@ -26,56 +32,65 @@
   background-color: #ffffff;
 }
 
+.welcome__message-content {
+  padding: 5px;
+}
+
 .message-image {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  float: left;
+  // float: left;
 }
 
-.main__description{
+.main__description {
   background-image: url("../../images/banner-background.jpg");
   background-position: center;
   background-size: contain;
-}
-.main__description-text{
 
+  h1 {
+    font-weight: 400;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+}
+
+.main__description-text {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-style: italic;
-}
-.servicetabs {
-  background-color: $bodybackground;
-  color: $text-color;
-  text-align: center;
+  padding: 10px 10%;
 }
 
-.servicetabs__box {
-  //background-color: #a0443b;
-  margin: 20px;
-  padding: 10px 20px;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
+.members__founding-image {
+  border-radius: 50%;
 }
 
-.button-readmore {
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-}
-.tangentyere__partners-images{
-  width:500px;
-  display:block;
-  margin:0 auto;
+.tangentyere__partners-images {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
 
-  div{
+  div {
     margin: 10px;
     padding: 2%;
     position: relative;
     text-align: center;
   }
 }
-.slick-prev:before, .slick-next:before {
-color: #000;
+
+.info-content{
+  padding: 20px;
+}
+.structure-image{
+  width: auto;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #000;
 }
 
 .welcome-footer {
@@ -84,13 +99,30 @@ color: #000;
     box-shadow: 10px 10px 5px #aaaaaa;
   }
 }
-@media #{$tablets-device} {}
+@media #{$tablets-device} {
+  .message-image {
+    border-radius: 100%;
+    float: left;
+  }
+}
 @media #{$desktop-device} {
+  .message-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
+    // float: left;
+  }
+
+  .welcome__message-content {
+    padding: 10px 20px;
+  }
+
   .servicetabs__box {
     width: 25vw;
   }
-  .main__description-text{
-      font-size: 20px;
-    padding: 10px 20% 10px 20%;
+
+  .main__description-text {
+    font-size: 20px;
+    padding: 10px 20%;
   }
 }

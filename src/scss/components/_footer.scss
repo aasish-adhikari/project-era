@@ -1,12 +1,25 @@
 .footer-wrapper{
   color: $footer-text;
   background-color: $footerbackground;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.footer-logo{
+  padding-left: 20px;
+  img{
 
-  .details-contacts{
-
+  width: 200px;
+  height: 150px;
   }
 }
+.details-contacts{
+  padding-left: 20px;
+}
 
+.details-social{
+  padding-left: 20px;
+  padding-right: 20%;
+}
 .main {
   width:300px;
   display:block;

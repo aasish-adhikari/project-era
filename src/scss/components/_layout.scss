@@ -3,10 +3,12 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  h1{
+
+  h1 {
     font-size: 22px;
     text-align: center;
   }
+
   h2 {
     font-size: 20px;
     text-align: center;
@@ -47,6 +49,11 @@ body {
   flex-wrap: nowrap;
   justify-content: space-between;
 }
+.nav-home {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
 
 .mainnav {
   ul {
@@ -83,7 +90,18 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-/*This all service tabs and content if for homepage.*/
+
+.welcome__message-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.container-content {
+  padding: 20px 0;
+}
+/*This all service tabs and content for service page.*/
 .servicetabs {
   display: flex;
   flex-direction: column;
@@ -101,11 +119,13 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.services-container{
+
+.services-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -113,27 +133,27 @@ body {
   overflow: hidden;
 }
 
-.enterprises__wrapper{
+.enterprises__wrapper {
   display: flex;
   flex-wrap: nowrap;
+  flex-direction: column;
   justify-content: space-around;
 }
 
-
-.summary__card-container{
- display: flex;
- flex-wrap:wrap;
- justify-content: space-around;
+.summary__card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .summary__card-person {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
 }
 
-.general__container-info{
+.general__container-info {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -171,9 +191,18 @@ body {
 .footer-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+.space{
+  flex-grow: 1;
+}
+.partners-images-slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.partners-images-slider {
+.employment__wrapper{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -203,17 +232,27 @@ body {
     flex-flow: row wrap;
   }
 
+  .welcome__message-wrapper {
+    flex-direction: row;
+  }
+// .employment__wrapper{
+//   flex-direction: row;
+// }
+.enterprises__wrapper {
+  flex-direction: row;
+}
+
   .footer-details {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
   }
 
-  .summary__card-container{
+  .summary__card-container {
     justify-content: space-around;
   }
-  .summary__card-person{
-    flex-wrap: nowrap;
 
+  .summary__card-person {
+    flex-wrap: nowrap;
   }
 }

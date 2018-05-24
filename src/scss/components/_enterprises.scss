@@ -1,0 +1,24 @@
+.enterprises__wrapper-content{
+  width: 100%;
+  align-self: center;
+}
+.enterprises-text{
+  padding: 30px;
+}
+.enterprises-image{
+  width: 100%;
+  height: 250px;
+  background-color: #222;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+@media #{$desktop-device} {
+  .enterprises__wrapper-content{
+    width: 50%;
+  }
+.enterprises-image{
+  height: 400px;
+}
+}
