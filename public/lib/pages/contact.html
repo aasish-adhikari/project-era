@@ -6,61 +6,97 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css">
   <link rel="stylesheet" href="../../build/styles/main.min.css">
-  <title>Tangentyere Council - Home</title>
+  <title>Tangentyere Council - Contact</title>
 </head>
 
 <body>
   <header class="navbar-wrapper">
+    <div class="heading heading-top hide-on-desk">
+      <a class="white" href="#"> Tangentyere Council</a>
+    </div>
+    <div class="heading heading-bottom hide-on-desk">
+      <a><i class="material-icons">home</i></a>
+      <a href="javascript:void(0)" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
+      <a><i class="material-icons">contact_support</i></a>
+    </div>
     <nav id="navbar" class="nav">
-      <div class="heading hide-on-desk">
-        <a href="javascript:void(0)" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <p class="white"> Tangentyere Council</p>
-      </div>
-      <div class="logo hide-on-small"><a class="a-logo" href="../../index.html"><img src="../../images/tangentyere-artists-Logo.jpg" alt="" class="logo red-bg">
+
+      <div class="logo hide-on-small"><a class="a-logo" href="../../index.html"><img src="../../images/Logo.jpg" alt="" class="logo red-bg">
          </a></div>
       <ul class="mainnav hide-on-small">
-        <li><a href="about.html">About Us</a></li>
+        <!--li class="space"><span class="space"></span></li-->
+        <li><a href="../../index.html#aboutus">About Us</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="enterprises.html">Enterprises</a></li>
-        <li><a href="publications.html">Publications</a></li>
         <li><a href="employment.html">Employment</a></li>
         <li><a href="contact.html">Contact Us</a></li>
 
       </ul>
     </nav>
     <ul class="sidenav">
-      <li><a href="about.html">About Us</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="enterprises.html">Enterprises</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="employment.html">Employment</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="lib/pages/about.html">About Us</a></li>
+      <li><a href="lib/pages/services.html">Services</a></li>
+      <li><a href="lib/pages/enterprises.html">Enterprises</a></li>
+      <li><a href="lib/pages/employment.html">Employment</a></li>
+      <li><a href="lib/pages/contact.html">Contact Us</a></li>
 
     </ul>
   </header>
   <main class="container">
     <!-- this div is welcome section on landing page. It will have parallex effect at the end -->
     <div class="contact-container">
-      <section class="contact-message">
+      <section class="contact-message welcome-message">
         <h1 class="white"> Contact Us</h1>
         <a class="btn"></a>
       </section>
-      <img class="parallax-bg" src="../../images/welcome-background.jpg" alt="no img">
     </div>
     <article class="contact-enquiry">
       <h2> General Enquiry</h2>
       <div class="card-container">
         <section class="card">
-          <p>This will contain contact details as a card</p>
+          <figure class="card__media">
+            <img src="../../images/card-img.jpg" alt="museum image">
+        </figure>
+        <h3 class="card__title card--museum-heading">Services</h3>
+        <p class="card__supporting-text card--museum-text">
+          While most programs are for residents of town camps, there are a number of programs that are also directed at people from the wider Alice Springs community and from remote communities. Get to know more about our services and facilities provided.
+        </p>
+        <div class="card__actions">
+            <a class="action-button action-button-icons" href="tel:+6-188-951-4222"><i class="material-icons">call</i></a>
+            <a class="action-button action-button-icons" href="mailto:info@tangentyere.org.au"><i class="material-icons">mail</i></a>
+            <div class="space"></div>
+            <a class="action-button action-button-icons"><i class="material-icons">more_vert</i></a>
+        </div>
         </section>
         <section class="card">
-          <p>This will contain contact details as a card</p>
+          <figure class="card__media">
+            <img src="../../images/service-customer.jpg" alt="museum image">
+        </figure>
+        <h3 class="card__title card--museum-heading">Employment at Tangentyere</h3>
+        <p class="card__supporting-text card--museum-text">
+            With a dedicated and friendly workforce, generous entitlements, and challenging and rewarding roles, Tangentyere Council offers an ideal workplace for people interested in working in Indigenous Community Services.
+        </p>
+        <div class="card__actions">
+            <a class="action-button action-button-icons" href="tel:+6-188-951-4222"><i class="material-icons">call</i></a>
+            <a class="action-button action-button-icons" href="mailto:info@tangentyere.org.au"><i class="material-icons">mail</i></a>
+            <div class="space"></div>
+            <a class="action-button action-button-icons"><i class="material-icons">more_vert</i></a>
         </section>
         <section class="card">
-          <p>This will contain contact details as a card</p>
+          <figure class="card__media">
+            <img src="../../images/donation.jpg" alt="museum image">
+        </figure>
+        <h3 class="card__title">Donation</h3>
+        <p class="card__supporting-text">
+          Tangentyere Council is a deductible gift recipient. All donations to Tangentyere Council over $2 are tax deductible. Interested persons can make a gift towards the work of Tangentyere Council, by forwarding a cheque or money order.
+        </p>
+        <div class="card__actions">
+            <a class="action-button action-button-icons" href="tel:+6-188-951-4222"><i class="material-icons">call</i></a>
+            <a class="action-button action-button-icons" href="mailto:info@tangentyere.org.au"><i class="material-icons">mail</i></a>
+            <div class="space"></div>
+            <a class="action-button action-button-icons"><i class="material-icons">more_vert</i></a>
         </section>
       </div>
       <form>

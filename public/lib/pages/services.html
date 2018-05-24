@@ -8,24 +8,29 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css">
   <link rel="stylesheet" href="../../build/styles/main.min.css">
-  <title>Tangentyere Council - Home</title>
+  <title>Tangentyere Council - Services</title>
 </head>
 
 <body>
   <header class="navbar-wrapper">
+    <div class="heading heading-top hide-on-desk">
+      <a class="white" href="#"> Tangentyere Council</a>
+    </div>
+    <div class="heading heading-bottom hide-on-desk">
+      <a><i class="material-icons">home</i></a>
+      <a href="javascript:void(0)" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
+      <a><i class="material-icons">contact_support</i></a>
+    </div>
     <nav id="navbar" class="nav">
-      <div class="heading hide-on-desk">
-        <a href="javascript:void(0)" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <p class="white"> Tangentyere Council</p>
-      </div>
-      <div class="logo hide-on-small"><a class="a-logo" href="../../index.html"><img src="../../images/tangentyere-artists-Logo.jpg" alt="" class="logo red-bg">
+
+      <div class="logo hide-on-small"><a class="a-logo" href="../../index.html"><img src="../../images/Logo.jpg" alt="" class="logo red-bg">
          </a></div>
       <ul class="mainnav hide-on-small">
-        <li><a href="about.html">About Us</a></li>
+        <!--li class="space"><span class="space"></span></li-->
+        <li><a href="../../index.html#aboutus">About Us</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="enterprises.html">Enterprises</a></li>
-        <li><a href="publications.html">Publications</a></li>
         <li><a href="employment.html">Employment</a></li>
         <li><a href="contact.html">Contact Us</a></li>
 
@@ -35,10 +40,8 @@
       <li><a href="about.html">About Us</a></li>
       <li><a href="services.html">Services</a></li>
       <li><a href="enterprises.html">Enterprises</a></li>
-      <li><a href="publications.html">Publications</a></li>
       <li><a href="employment.html">Employment</a></li>
       <li><a href="contact.html">Contact Us</a></li>
-
     </ul>
   </header>
   <main class="container">
@@ -46,12 +49,12 @@
       <p> This div will contain image slider</p>
     </div>
 
-    <article class="main__description">
+    <article class="container-content main__description white">
       <h1>Program and Services</h1>
       <p class="main__description-text">Tangentyere Council operates a wide range of services and programs for Aboriginal people in Central Australia. While Tangentyere Council’s role developed initially around tenure, housing and essential services for town camp residents in the 1970s and 1980s, it quickly developed to encompass a range of family, community and social services to which people in town camps did not otherwise have access.
       </p>
     </article>
-    <article class="services">
+    <article class="container-content services">
       <h2>Our Services</h2>
       <div class="services-container">
       <section class="services-tabs card">
@@ -91,7 +94,7 @@
       </section>
     </div>
     </article>
-    <article class="">
+    <article class="container-content content-help">
       <h3> How can we help you?</h3>
       <p>Are you looking for something else? Or have a word to tell us?</p>
       <button class="btn">Contact Us</button>
