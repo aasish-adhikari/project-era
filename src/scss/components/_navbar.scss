@@ -34,7 +34,10 @@
 .active{
   box-shadow: inset 0 -5px 0 $hover-color;
 }
-
+#display01{
+  height: 100vh;
+  width: 100%;
+}
 .heading {
   background-color: $bg-color;
 }
@@ -92,7 +95,7 @@
 }
 
 .active-side {
-  background-color: blue;
+  background-color: #1b1b1b;
 }
 
 .sidenav.show {
