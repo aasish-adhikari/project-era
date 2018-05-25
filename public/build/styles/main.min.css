@@ -1105,7 +1105,7 @@ body {
     border-bottom: 1px solid #000000; }
 
 .active-side {
-  background-color: blue; }
+  background-color: #1b1b1b; }
 
 .sidenav.show {
   transform: translateX(0);
