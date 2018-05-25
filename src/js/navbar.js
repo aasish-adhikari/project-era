@@ -1,6 +1,7 @@
 document.getElementsByClassName('sidenav-trigger')[0].addEventListener('click', showMenu);
-expand = document.getElementsByClassName("sidenav")[0];
 function showMenu(){
+    var expand = document.getElementsByClassName("sidenav")[0];
+    console.log('noth');
         expand.classList.toggle("show");
 }
 
@@ -15,15 +16,3 @@ window.addEventListener('scroll',function(e){
   }
 
 });
-
-
-/*this closes the menu bar that had slided
-*from the side even if user clicks anywhere on the screen */
-var modal = document.getElementById("display01");
-window.onclick = function(event) {
-    if (event.target == modal) {
-
-          console.log('noth');
-        expand.classList.remove("show");
-    }
-}
